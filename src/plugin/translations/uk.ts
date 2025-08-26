@@ -184,6 +184,14 @@ export const language: i18n =
 			title: "Увімкнути фільтрацію за властивістю публікації",
 			description: "Коли увімкнено, файли з publish=false у frontmatter будуть виключені з експорту",
 		},
+		enableFooterInjection: {
+			title: "Увімкнути вставку нижнього колонтитула",
+			description: "Коли увімкнено, вміст вказаного markdown-файлу буде додано до нижнього колонтитула експортованих нотаток",
+		},
+		footerSnippetPath: {
+			title: "Шлях до фрагмента нижнього колонтитула",
+			description: "Шлях до markdown-файлу, вміст якого буде додано до нижнього колонтитула експортованих нотаток",
+		},
 		favicon: {
 			title: "Зображення Favicon",
 			description: "Локальний шлях до favicon для сайту",

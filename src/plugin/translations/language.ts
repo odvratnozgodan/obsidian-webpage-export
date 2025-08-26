@@ -234,6 +234,14 @@ export interface i18n
 			title: string;
 			description: string;
 		},
+		enableFooterInjection: {
+			title: string;
+			description: string;
+		},
+		footerSnippetPath: {
+			title: string;
+			description: string;
+		},
 
 	}
 }

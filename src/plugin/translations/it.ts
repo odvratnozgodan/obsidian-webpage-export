@@ -179,6 +179,14 @@ export const language: i18n =
 			title: "Abilita Filtro Proprietà di Pubblicazione",
 			description: "Quando abilitato, i file con publish=false nel frontmatter saranno esclusi dall'esportazione",
 		},
+		enableFooterInjection: {
+			title: "Abilita Iniezione Piè di Pagina",
+			description: "Quando abilitato, il contenuto del file markdown specificato verrà aggiunto al piè di pagina delle note esportate",
+		},
+		footerSnippetPath: {
+			title: "Percorso Snippet Piè di Pagina",
+			description: "Percorso di un file markdown il cui contenuto verrà aggiunto al piè di pagina delle note esportate",
+		},
 		favicon: {
 			title: "Immagine Favicon",
 			description: "Il percorso locale della favicon per il sito",

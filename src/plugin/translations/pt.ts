@@ -185,6 +185,14 @@ export const language: i18n =
 			title: "Ativar Filtragem por Propriedade de Publicação",
 			description: "Quando ativado, arquivos com publish=false no frontmatter serão excluídos da exportação",
 		},
+		enableFooterInjection: {
+			title: "Ativar Injeção de Rodapé",
+			description: "Quando ativado, o conteúdo do arquivo markdown especificado será anexado ao rodapé das notas exportadas",
+		},
+		footerSnippetPath: {
+			title: "Caminho do Snippet de Rodapé",
+			description: "Caminho para um arquivo markdown cujo conteúdo será anexado ao rodapé das notas exportadas",
+		},
 		favicon: {
 			title: "Imagem do Favicon",
 			description: "Caminho local da imagem favicon do site",
